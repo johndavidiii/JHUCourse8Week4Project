@@ -3,8 +3,8 @@ title: "Course8Project"
 author: "John David"
 date: "8/23/2019"
 output:
-  word_document: default
   html_document: default
+  word_document: default
 ---
 
 ```{r setup, include=FALSE}
@@ -57,7 +57,8 @@ apply.type.rules <- function(tmpDF){
 
 
 
-trainingDF <- read.csv(file="/Course_8_Machine_Learning/Project/pml-training.csv", stringsAsFactors = FALSE)
+trainingDF <- read.csv(file="/Users/douglasashworth/Documents/Coursera/DataScience/Course_8_Machine_Learning/Project/pml-training.csv", stringsAsFactors = FALSE)
+
 
 #summary(trainingDF)
 #str(trainingDF)
